@@ -1,0 +1,9 @@
+.chat{
+    width: 20vw;
+    height: 50vh;
+    background-color: white;
+    position: absolute;
+    border: 1px solid black;
+    top: 50%;
+    left: 70%;
+}

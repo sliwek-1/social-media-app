@@ -1,0 +1,92 @@
+.header{
+    width: 100vw;
+    height:10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: royalblue;
+    position: fixed;
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.3);
+}
+
+.search{
+    background-color: #fff;
+    width: 450px;
+}
+
+.user-list .user{
+    width: 420px;
+    height: 50px;
+    display: flex;
+    justify-content: left;
+    gap: 15px;
+    align-items: center;
+}
+
+.user:nth-child(odd){
+    background-color: #eee;
+}
+
+.user-info{
+    width: 200px;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    color: white;
+}
+
+.user-img{
+    width: 35px;
+    height: 35px;
+    border-radius: 35px;
+}
+
+.user-name{
+    text-transform: capitalize;
+}
+
+.link-section{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.link-section a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 15px;
+    font-size: 0.75rem;
+    width: 50px;
+    text-align: center;
+}
+
+.link-section a:last-child{
+    background-color: red;
+    border-color: red;
+}
+
+.user-list{
+    width: 450px;
+    height: 250px;
+    background-color: #fff;
+    position: absolute;
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.3);
+    display: none;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 15px;
+}
+
+.user-list::-webkit-scrollbar{
+    width: 0;
+}
+
+.user-list.active{
+    display: block;
+}
