@@ -13,7 +13,7 @@
     $result = $request->fetch(PDO::FETCH_ASSOC);
 ?>
 <!-- TO JEST NOWY KOMENTAZRZ 2 -->
-<!-- TO JEST DRUGI KOMENTARZ --> 
+<!-- TO JEST DRUGI KOMENTARZ siema --> 
 <!DOCTYPE html>
 <html lang="en">
 <head>
