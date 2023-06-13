@@ -12,7 +12,7 @@
 
     $result = $request->fetch(PDO::FETCH_ASSOC);
 ?>
-<!-- TO JEST KOMENTAZRZ -->
+<!-- TO JEST NOWY KOMENTAZRZ -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
