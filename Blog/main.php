@@ -12,8 +12,7 @@
 
     $result = $request->fetch(PDO::FETCH_ASSOC);
 ?>
-<!-- TO JEST NOWY KOMENTAZRZ 2 -->
-<!-- TO JEST DRUGI KOMENTARZ siema --> 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -86,8 +85,10 @@
                     </div>
             </div>
             <div class="chat-bar">
-                <form action="#" class="send-message"></form>
-                <button class="submit-message"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+                <form action="#" class="send-message">
+                    <input type="text" name="chat-msg" id="chat-msg" class="chat-msg" placeholder="Napisz wiadomość"> 
+                    <button class="submit-message"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+                </form>
             </div>
         </div>
     </main>
