@@ -81,7 +81,7 @@
                     <div class="msg-in-element">
                         <div class="msg-in">
                             <div class="img-usr-msg-in">
-                                <img src="#" alt="#">
+                                <img src="bg.png" alt="#">
                             </div>
                             <p>siemka</p>
                         </div>
@@ -94,7 +94,7 @@
                     <div class="msg-in-element">
                         <div class="msg-in">
                             <div class="img-usr-msg-in">
-                                <img src="#" alt="#">
+                                <img src="bg.png" alt="#">
                             </div>
                             <p>A nic ciekawego a co?</p>
                         </div>
