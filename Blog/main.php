@@ -64,24 +64,40 @@
             <div class="load-more">Load more</div>
         </div>
         <div class="chat">
+            <div class="header-chat">
+                <div class="user-chat">
+                    <div class="img">
+                        <img src="#" alt="#">
+                        <div class="user-name-chat">Jan Kowalski</div>
+                    </div>
+                </div>
+            </div>
             <div class="chat-center">
-                    <div class="msg-out">
-                        <p>Hej</p>
-                    </div>
-                    <div class="msg-in">
-                        <div class="img-usr-msg-in">
-                            <img src="#" alt="#">
+                    <div class="msg-out-element">
+                        <div class="msg-out">
+                            <p>Hej</p>
                         </div>
-                        <p>siemka</p>
                     </div>
-                    <div class="msg-out">
-                        <p>Co tam robisz?</p>
-                    </div>
-                    <div class="msg-in">
-                        <div class="img-usr-msg-in">
-                            <img src="#" alt="#">
+                    <div class="msg-in-element">
+                        <div class="msg-in">
+                            <div class="img-usr-msg-in">
+                                <img src="#" alt="#">
+                            </div>
+                            <p>siemka</p>
                         </div>
-                        <p>A nic ciekawego a co?</p>
+                    </div>
+                    <div class="msg-out-element">
+                        <div class="msg-out">
+                            <p>Co tam robisz?</p>
+                        </div>
+                    </div>
+                    <div class="msg-in-element">
+                        <div class="msg-in">
+                            <div class="img-usr-msg-in">
+                                <img src="#" alt="#">
+                            </div>
+                            <p>A nic ciekawego a co?</p>
+                        </div>
                     </div>
             </div>
             <div class="chat-bar">

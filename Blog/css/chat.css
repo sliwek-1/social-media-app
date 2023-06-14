@@ -1,7 +1,7 @@
 .chat{
     width: 20vw;
     height: 50vh;
-    background-color: #eee;
+    background-color: white;
     position: absolute;
     border: 1px solid rgba(0,0,0,0.5);
     border-radius: 5px;
@@ -14,15 +14,69 @@
     padding: 10px;
 }
 
+.header-chat{
+    width: 18vw;
+    display: flex;
+    justify-content: left;
+}
+
+.user-chat{
+    width: 18vw;
+    display: flex;
+    justify-content: left;
+}
+
+.msg-out-element{
+    width: 19vw;
+    height: auto;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.msg-in-element{
+    width: 19vw;
+    height: auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.msg-out{
+    width: auto;
+    height: auto;
+    background-color: royalblue;
+    color: white;
+    padding: 7px;
+    border-radius: 5px 5px 0px 5px;
+    margin-right: 5px;
+}
+
+.msg-in p{
+    width: auto;
+    height: auto;
+    background-color: #eee;
+    color: black;
+    padding: 7px;
+    border-radius: 5px 5px 5px 0px;
+    margin-left: 5px;
+}
+
 .chat-center{
     width: 19vw;
     height: 45vh;
     border-radius: 5px;
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 5px;
+    border: 1px solid rgba(0,0,0,0.2);
 }
 
 .chat-msg{
-    width: 250px;
+    width: 295px;
     border: 1px solid rgba(0,0,0,0.3);
     border-radius: 5px 0px 0px 5px;
 }
@@ -30,4 +84,14 @@
 .chat-msg:focus{
     transform: translate(0);
     box-shadow: none;
+}
+
+.submit-message{
+    padding: 10px;
+    border: 1px solid rgba(0,0,0,0.5);
+    border-radius: 0px 5px 5px 0px;
+    border-color: royalblue;
+    outline: none;
+    color: white;
+    background-color: royalblue;
 }
