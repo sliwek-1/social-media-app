@@ -25,6 +25,7 @@
     <script src="./js/get-reaction-data.js" defer></script>
     <script src="./js/load-main.js" defer></script>
     <script src="./js/search-user.js" defer></script>
+    <script src="./js/send-message.js" defer></script>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/main-header.css">
     <link rel="stylesheet" href="./css/chat.css">
