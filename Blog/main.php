@@ -19,13 +19,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/send-message.js" defer></script>
     <script src="./js/get-chat-data.js" defer></script>
     <script src="./js/show-reactions.js" defer></script>
     <script src="./js/get-user-list.js" defer></script>
     <script src="./js/get-reaction-data.js" defer></script>
     <script src="./js/load-main.js" defer></script>
     <script src="./js/search-user.js" defer></script>
-    <script src="./js/send-message.js" defer></script>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/main-header.css">
     <link rel="stylesheet" href="./css/chat.css">

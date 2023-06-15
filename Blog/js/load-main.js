@@ -35,6 +35,7 @@ async function fetchData(pageNum){
             getChatData() // get-chat-data.js
             showReactions(); // show-reactions.js
             main(); //get-reaction-data.js
+            sendMessage();
 
         })
         .catch(error => console.log(error))
