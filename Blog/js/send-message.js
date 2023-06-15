@@ -5,7 +5,7 @@ async function sendMessage(){
             e.preventDefault();
             let form = document.querySelector('.send-message');
             let formData = new FormData(form);
-            let request = await fetch('/php/get-messages.php',{
+            let request = await fetch('php/get-messages.php',{
                 method: 'post',
                 body: formData
             });
