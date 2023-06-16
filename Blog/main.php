@@ -69,7 +69,7 @@
             <div class="header-chat">
                 <div class="user-chat">
                     <div class="img">
-                        <img src="#" alt="#">
+                        <img src="#" alt="#" class="user-chat-img">
                         <div class="user-name-chat">Jan Kowalski</div>
                     </div>
                 </div>

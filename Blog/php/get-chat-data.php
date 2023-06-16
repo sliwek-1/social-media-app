@@ -10,6 +10,6 @@
     $request->execute();
 
     $result = $request->fetch(PDO::FETCH_ASSOC);
-
-    print_r($result);
+    header('Content-type: application/json');
+    print_r(json_encode($result));
 ?>
