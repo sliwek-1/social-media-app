@@ -111,3 +111,14 @@
     color: white;
     background-color: royalblue;
 }
+
+.close-chat{
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: red;
+    cursor: pointer;
+}

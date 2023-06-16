@@ -4,7 +4,7 @@
 
     $userID = $_POST['userID'];
 
-    $request = $conn->prepare("SELECT * FROM users WHERE unique_id = :user_id");
+    $request = $conn->prepare("SELECT unique_id, firstname, surrname, img_usr FROM users WHERE unique_id = :user_id");
     $request->bindValue(':user_id', $userID);
 
     $request->execute();

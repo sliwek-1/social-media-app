@@ -19,6 +19,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/show-chat.js" defer></script>
     <script src="./js/send-message.js" defer></script>
     <script src="./js/get-chat-data.js" defer></script>
     <script src="./js/show-reactions.js" defer></script>
@@ -72,6 +73,7 @@
                         <div class="user-name-chat">Jan Kowalski</div>
                     </div>
                 </div>
+                <button class="close-chat">x</button>
             </div>
             <div class="chat-center">
                     <div class="msg-out-element">
