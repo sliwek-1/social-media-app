@@ -9,6 +9,7 @@ function getChatData(){
                 let chat = document.querySelector('.chat');
                 let userImg = document.querySelector('.user-chat-img');
                 let userName = document.querySelector('.user-name-chat');
+                let closeTab = document.querySelector('.close-chat');
     
                 let request = await fetch('php/get-chat-data.php',{
                     method: 'post',
@@ -21,9 +22,16 @@ function getChatData(){
                 let response = await request.json();
 
                 userImg.src = response.img_usr;
+                if(response.img_usr == null){
+                    userImg.src = 'user.jpg';
+                }
                 userName.textContent = `${response.firstname} ${response.surrname}`;
                 
                 chat.classList.add('active');
+
+                closeTab.addEventListener('click', () => {
+                    chat.classList.remove('active');
+                })
 
             }catch(error){
                 console.log(error);

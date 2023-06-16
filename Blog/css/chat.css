@@ -19,6 +19,12 @@
     display: block;
 }
 
+.user-chat-img{
+    width: 45px;
+    height: 45px;
+    border-radius: 25px;
+}
+
 .header-chat{
     width: 18vw;
     display: flex;
@@ -29,6 +35,8 @@
     width: 18vw;
     display: flex;
     justify-content: left;
+    align-items: center;
+    gap: 10px;
 }
 
 .msg-out-element{
@@ -85,7 +93,7 @@
 
 .chat-center{
     width: 19vw;
-    height: 45vh;
+    height: 36vh;
     border-radius: 5px;
     background-color: white;
     display: flex;

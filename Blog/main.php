@@ -70,8 +70,8 @@
                 <div class="user-chat">
                     <div class="img">
                         <img src="#" alt="#" class="user-chat-img">
-                        <div class="user-name-chat">Jan Kowalski</div>
                     </div>
+                    <div class="user-name-chat">Jan Kowalski</div>
                 </div>
                 <button class="close-chat">x</button>
             </div>
