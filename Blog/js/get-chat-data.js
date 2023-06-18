@@ -33,9 +33,11 @@ function getChatData(){
 
                 closeTab.addEventListener('click', () => {
                     chat.classList.remove('active');
+                    clearInterval(renderInterval)
                 })
 
                 renderChat();
+                let renderInterval = setInterval(renderChat, 100);
             }catch(error){
                 console.log(error);
             }
