@@ -9,8 +9,9 @@ function getChatData(){
                 let chat = document.querySelector('.chat');
                 let userImg = document.querySelector('.user-chat-img');
                 let userName = document.querySelector('.user-name-chat');
+                let userChatID = document.querySelector('.user-chat-id');
                 let closeTab = document.querySelector('.close-chat');
-    
+                
                 let request = await fetch('php/get-chat-data.php',{
                     method: 'post',
                     body: 'userID=' + userID,
@@ -20,12 +21,13 @@ function getChatData(){
                 })
     
                 let response = await request.json();
-
+                    
                 userImg.src = response.img_usr;
                 if(response.img_usr == null){
                     userImg.src = 'user.jpg';
                 }
                 userName.textContent = `${response.firstname} ${response.surrname}`;
+                userChatID.value = `${response.unique_id}`;
                 
                 chat.classList.add('active');
 
@@ -38,5 +40,13 @@ function getChatData(){
             }
         })
     })
+}
+
+async function renderChat(){
+    try{
+        
+    }catch(error){
+        console.log(error);
+    }
 }
 

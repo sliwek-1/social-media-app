@@ -105,7 +105,7 @@
             </div>
             <div class="chat-bar">
                 <form action="#" class="send-message">
-                    <input type="text" name="user-id" value="" hidden>
+                    <input type="text" name="user-chat-id" class="user-chat-id" value="" hidden>
                     <input type="text" name="chat-msg" id="chat-msg" class="chat-msg" placeholder="Napisz wiadomość"> 
                     <button class="submit-message"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
                 </form>
