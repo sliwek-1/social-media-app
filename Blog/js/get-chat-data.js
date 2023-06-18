@@ -35,6 +35,7 @@ function getChatData(){
                     chat.classList.remove('active');
                 })
 
+                renderChat();
             }catch(error){
                 console.log(error);
             }

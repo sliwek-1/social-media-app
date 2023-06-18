@@ -102,10 +102,14 @@
     align-items: center;
     padding: 5px;
     border: 1px solid rgba(0,0,0,0.2);
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
+
 
 .chat-msg{
     width: 295px;
+    height: auto;
     border: 1px solid rgba(0,0,0,0.3);
     border-radius: 5px 0px 0px 5px;
 }

@@ -1,6 +1,7 @@
 async function sendMessage(){
     try{
         let btn = document.querySelector('.submit-message');
+        let msg = document.querySelector('.chat-msg');
         btn.addEventListener('click',async (e) => {
             e.preventDefault();
             let form = document.querySelector('.send-message');
@@ -10,7 +11,7 @@ async function sendMessage(){
                 body: formData
             });
             
-            let response = await request.text();
+            msg.value = "";
             
             renderChat();
         })
@@ -19,17 +20,3 @@ async function sendMessage(){
     }
 }
 
-
-async function renderChat(){
-    try{
-        let userChatID = document.querySelector('.user-chat-id');
-        let request = await fetch('php/render-chat.php',{
-            method: 'post',
-            body: "userID=" + userChatID.value
-        })
-        let response = await request.text();
-        console.log(response)
-    }catch(error){
-        console.log(error);
-    }
-}
