@@ -22,7 +22,7 @@
                 $time = time();
 
                 $new_name = $time.$img_name;
-                if(move_uploaded_file($img_tmp,'../img/'.$new_name)){
+                if(move_uploaded_file($img_tmp,'img/'.$new_name)){
                     $post_id = rand(0, 1000000);
 
                     $request = $conn->prepare("INSERT INTO posts(unique_id, user_id, title, content, img) 
