@@ -12,10 +12,24 @@ async function sendMessage(){
             
             let response = await request.text();
             
-            console.log(response);
+            renderChat();
         })
     }catch(error){
         console.log(error)
     }
 }
 
+
+async function renderChat(){
+    try{
+        let userChatID = document.querySelector('.user-chat-id');
+        let request = await fetch('php/render-chat.php',{
+            method: 'post',
+            body: "userID=" + userChatID.value
+        })
+        let response = await request.text();
+        console.log(response)
+    }catch(error){
+        console.log(error);
+    }
+}

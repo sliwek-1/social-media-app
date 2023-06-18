@@ -42,11 +42,3 @@ function getChatData(){
     })
 }
 
-async function renderChat(){
-    try{
-        
-    }catch(error){
-        console.log(error);
-    }
-}
-
