@@ -47,7 +47,7 @@ window.addEventListener('DOMContentLoaded', () => {
                 })
 
                 let data = await request.text();
-
+                console.log(data)
                 if(data == "success"){
                     let editArea = document.querySelector('.edit-area');
                     let modal = document.querySelector('.modal');
