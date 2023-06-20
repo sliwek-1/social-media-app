@@ -55,7 +55,7 @@
         </div>
         </div>
         <div class="link-section">
-            <a href="#" class="profile-btn">Profil</a>
+            <a href="./profile.php?unique_id=<?= $_SESSION['unique_id'] ?>">Profil</a>
             <a href="./php/admin.php?unique_id=<?= $_SESSION['unique_id'] ?>">Admin</a>
             <a href="./php/logout.php?unique_id=<?= $_SESSION['unique_id'] ?>">Wyloguj</a>
         </div>
