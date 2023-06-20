@@ -9,6 +9,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
         editBtns.forEach(btn => {
             btn.addEventListener('click', async (e) => {
+                console.log(e.target)
                 e.preventDefault();
                 let currentElement = e.target.parentElement.parentElement.parentElement;
                 let post = currentElement.querySelector('.post');
@@ -30,7 +31,6 @@ window.addEventListener('DOMContentLoaded', () => {
             editArea.classList.remove('active');
             modal.classList.remove('active');
         })
-
     }
 
     function submitData(){

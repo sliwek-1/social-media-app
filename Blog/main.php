@@ -19,6 +19,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/set-profile.js" defer></script>
     <script src="./js/render-chat.js" defer></script>
     <script src="./js/show-chat.js" defer></script>
     <script src="./js/send-message.js" defer></script>
@@ -54,7 +55,7 @@
         </div>
         </div>
         <div class="link-section">
-            <a href="./php/profile.php?unique_id=<?= $_SESSION['unique_id'] ?>">Profil</a>
+            <a href="#" class="profile-btn">Profil</a>
             <a href="./php/admin.php?unique_id=<?= $_SESSION['unique_id'] ?>">Admin</a>
             <a href="./php/logout.php?unique_id=<?= $_SESSION['unique_id'] ?>">Wyloguj</a>
         </div>
