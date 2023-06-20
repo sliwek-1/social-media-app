@@ -20,3 +20,5 @@ async function sendMessage(){
     }
 }
 
+sendMessage(); // send-message.js
+
